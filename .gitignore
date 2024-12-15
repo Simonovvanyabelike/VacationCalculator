@@ -1,8 +1,6 @@
-*.class
-    target/
-    .idea/
-    .DS_Store
-
+.idea/
+     target/
+     *.iml
 
 
 !.mvn/wrapper/maven-wrapper.jar
@@ -15,7 +13,7 @@
 .idea/compiler.xml
 .idea/libraries/
 *.iws
-*.iml
+
 *.ipr
 
 ### Eclipse ###
@@ -41,3 +39,4 @@ build/
 .vscode/
 
 ### Mac OS ###
+.DS_Store
